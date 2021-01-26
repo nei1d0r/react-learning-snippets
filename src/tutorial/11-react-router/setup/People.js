@@ -8,10 +8,11 @@ const People = () => {
       <h1>People Page</h1>
       {people.map((person) => {
         return (
-          <div key={person.id} className='item'>
-            <h4>{person.name}</h4>
-          </div>
-        );
+            <div key={person.id} className="item">
+                <h4>{person.name}</h4>
+                <Link to={`/person/${person.id}`}>view</Link>
+            </div>
+        )
       })}
     </div>
   );
