@@ -1,5 +1,5 @@
 import React from 'react';
-import Setup from './tutorial/11-react-router/setup/index'
+import Setup from './tutorial/12-memo-useMemo-useCallback/setup/index'
 
 function App() {
     return (
